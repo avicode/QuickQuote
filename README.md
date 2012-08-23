@@ -27,4 +27,6 @@ Version History
 
 v0.1 - Preparing GitHub, adding files beginning application, (Application not released until v1.0).
 
-v0.2 - Added index.html form without any actions done.
+v0.2 - Added `index.html` form without any actions done.
+
+v0.3 - Added `quote.php` and `prices.php` and got the main system written
