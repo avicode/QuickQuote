@@ -3,10 +3,10 @@
 /* Include prices file */
 include('prices.php');
 
-$selected_website_type = $_POST['web_type'];
-$selected_databases = $_POST['databases'];
-$selected_password = $_POST['password'];
-$selected_payment = $_POST['payment'];
+$selected_website_type = $_POST["web_type"];
+$selected_databases = $_POST["databases"];
+$selected_password = $_POST["password"];
+$selected_payment = $_POST["payment"];
 
 
 $total_cost = 500;
