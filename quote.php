@@ -19,13 +19,13 @@ if ($selected_website_type == "Standard") {
 
 $website_database_cost = $databases * $selected_databases;
 
-if ($selected_password == "on") {
+if ($selected_password) {
 	$website_password_cost = $passwords;
 } else {
 	$website_password_cost = 0;
 }
 
-if ($selected_payment == "on") {
+if ($selected_payment) {
 	$website_payment_cost = $payment;
 } else {
 	$website_payment_cost = 0;
