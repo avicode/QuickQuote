@@ -13,7 +13,7 @@ $website_database_cost = 0;
 $website_password_cost = 0;
 $website_payment_cost = 0;
 
-$total_cost = 0;
+$total_cost = 500;
 
 if ($selected_website_type == "Standard") {
 	$website_type_cost = $standard_website;
