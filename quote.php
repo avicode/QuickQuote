@@ -8,10 +8,6 @@ $selected_databases = $_POST['databases'];
 $selected_password = $_POST['password'];
 $selected_payment = $_POST['payment'];
 
-$website_type_cost = 0;
-$website_database_cost = 0;
-$website_password_cost = 0;
-$website_payment_cost = 0;
 
 $total_cost = 500;
 
