@@ -39,15 +39,15 @@ $total_cost = $total_cost += $website_database_cost += $website_password_cost +=
 
 <?php 
 
-echo "<b>".$website_database_cost."</b>";
-echo "<b>".$website_password_cost."</b>";
-echo "<b>".$website_type_cost."</b>";
+echo "<b>".$website_database_cost."</b><br>";
+echo "<b>".$website_password_cost."</b><br>";
+echo "<b>".$website_type_cost."</b><br>";
 echo "<b>".$website_payment_cost."</b>";
-echo "<b>".$passwords."</b>";
-echo "<b>".$databases."</b>";
-echo "<b>".$flash_website."</b>";
-echo "<b>".$standard_website."</b>";
-echo "<b>".$payment."</b>";
-echo "<b>".$total_cost."</b>";
+echo "<b>".$passwords."</b><br>";
+echo "<b>".$databases."</b><br>";
+echo "<b>".$flash_website."</b><br>";
+echo "<b>".$standard_website."</b><br>";
+echo "<b>".$payment."</b><br>";
+echo "<b>".$total_cost."</b><br>";
 
 ?>
