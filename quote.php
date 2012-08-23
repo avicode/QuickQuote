@@ -35,7 +35,7 @@ if ($selected_payment == "on") {
 	$website_payment_cost = 0;
 }
 
-$total_cost = $website_database_cost + $website_password_cost + $website_type_cost + $website_payment_cost;
+$total_cost = $website_database_cost += $website_password_cost += $website_type_cost += $website_payment_cost;
 
 
 
